@@ -71,6 +71,10 @@ Expect `ALL CHECKS PASSED`. The last argument is the party size to test with.
 
 Patches target the game's own types directly, so the compiler catches renamed members. Hard-coded `6`s are replaced with `PlayerLimitPlugin.MaxPlayers` by transpilers that only match a `6` feeding a comparison or a specific call. Each transpiler states how many it expects to replace and logs a warning if the game no longer matches. On startup the log reports `Patches applied: N/N` and names any patch that failed.
 
+## License
+
+[MIT](LICENSE). Stolen Realm itself and its assets are not covered and are not included in this repo.
+
 ## Credits
 
 Based on the original [Player Limit Mod](https://thunderstore.io/c/stolen-realm/p/StolenRealmModding/Player_Limit_Mod/) by StolenRealmModding. v2 is a full rewrite for the current game by girthy_mods.
