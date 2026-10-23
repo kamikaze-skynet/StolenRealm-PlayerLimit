@@ -1,0 +1,20 @@
+# Build output
+bin/
+obj/
+out/
+dist/
+
+# IDE
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+
+# Never commit game or BepInEx binaries
+*.dll
+!PlayerLimitMod/Assets/*.dll
+
+# OS
+.DS_Store
+Thumbs.db

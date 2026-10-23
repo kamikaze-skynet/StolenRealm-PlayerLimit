@@ -1,0 +1,9 @@
+{
+    "name": "Player_Limit_Mod",
+    "version_number": "2.1.3",
+    "website_url": "",
+    "description": "Raise Stolen Realm's party cap above 6 (up to 30) with paged party, portrait, event, item and gold UI and optional extra enemies.",
+    "dependencies": [
+        "BepInEx-BepInExPack-5.4.2100"
+    ]
+}
